@@ -1,0 +1,209 @@
+{
+  "name": "Death Metal - Death (Leprosy)",
+  "author": "Death Metal Themes",
+  "variables": {
+    "black": "#000000",
+    "white": "#c1c1c1",
+    "grey": "#505050",
+    "accent1": "#DC6B8E",
+    "accent2": "#B13F4D",
+    "background": "#000000",
+    "foreground": "#c1c1c1",
+    "caret": "#c1c1c1",
+    "selection": "#333333",
+    "line_highlight": "#000000"
+  },
+  "globals": {
+    "background": "var(background)",
+    "foreground": "var(foreground)",
+    "caret": "var(caret)",
+    "line_highlight": "var(line_highlight)",
+    "selection": "var(selection)",
+    "selection_border": "var(selection)",
+    "inactive_selection": "#222222",
+    "misspelling": "var(accent2)",
+    "shadow": "#00000080",
+    "gutter": "var(background)",
+    "gutter_foreground": "var(grey)",
+    "guide": "#333333",
+    "active_guide": "#555555",
+    "stack_guide": "#444444",
+    "brackets_options": "underline",
+    "brackets_foreground": "var(accent1)",
+    "bracket_contents_options": "underline",
+    "bracket_contents_foreground": "var(accent1)",
+    "tags_options": "stippled_underline"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment, punctuation.definition.comment",
+      "foreground": "var(grey)",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(accent1)"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "#aaaaaa"
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "foreground": "#aaaaaa"
+    },
+    {
+      "name": "User-defined constant",
+      "scope": "constant.character, constant.other",
+      "foreground": "#aaaaaa"
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "foreground": "var(foreground)"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, keyword.operator.word",
+      "foreground": "#999999"
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "foreground": "#999999"
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "foreground": "var(accent2)"
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class, entity.name.type",
+      "foreground": "var(accent2)"
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "foreground": "var(accent2)"
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "foreground": "#888888"
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "foreground": "#c1c1c1"
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "foreground": "var(accent2)"
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "foreground": "#c1c1c1"
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "foreground": "#888888"
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "foreground": "#aaaaaa"
+    },
+    {
+      "name": "Library class/type",
+      "scope": "support.type, support.class",
+      "foreground": "var(accent2)"
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.other.variable",
+      "foreground": "var(foreground)"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "#ffffff",
+      "background": "#B13F4D"
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "foreground": "#ffffff",
+      "background": "#DC6B8E"
+    },
+    {
+      "name": "Diff header",
+      "scope": "meta.diff, meta.diff.header",
+      "foreground": "var(grey)"
+    },
+    {
+      "name": "Diff deleted",
+      "scope": "markup.deleted",
+      "foreground": "#B13F4D"
+    },
+    {
+      "name": "Diff inserted",
+      "scope": "markup.inserted",
+      "foreground": "#6e4c4c"
+    },
+    {
+      "name": "Diff changed",
+      "scope": "markup.changed",
+      "foreground": "#DC6B8E"
+    },
+    {
+      "name": "Markup heading",
+      "scope": "markup.heading",
+      "foreground": "var(accent1)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markup italic",
+      "scope": "markup.italic",
+      "font_style": "italic"
+    },
+    {
+      "name": "Markup bold",
+      "scope": "markup.bold",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markup underline",
+      "scope": "markup.underline",
+      "font_style": "underline"
+    },
+    {
+      "name": "Markup code",
+      "scope": "markup.raw",
+      "foreground": "var(accent1)"
+    },
+    {
+      "name": "Markup quote",
+      "scope": "markup.quote",
+      "foreground": "var(grey)",
+      "font_style": "italic"
+    },
+    {
+      "name": "Markup list",
+      "scope": "markup.list punctuation.definition.list_item",
+      "foreground": "var(accent1)"
+    },
+    {
+      "name": "Markup link",
+      "scope": "markup.underline.link",
+      "foreground": "var(accent2)"
+    }
+  ]
+}

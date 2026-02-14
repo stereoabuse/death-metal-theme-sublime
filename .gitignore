@@ -1,0 +1,10 @@
+*.html
+node_modules/
+package-lock.json
+.DS_Store
+
+# Claude Code
+.claude/
+*.claude
+.cursor/
+.cursorrules
