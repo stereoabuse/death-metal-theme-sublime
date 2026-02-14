@@ -1,8 +1,10 @@
 # Death Metal Sublime Text
 
-The definitive collection of death metal-inspired Sublime Text color schemes!
+A collection of death metal-inspired Sublime Text color schemes!
 
-Color palettes extracted directly from iconic death metal album artwork, carefully selected for both aesthetic authenticity and code readability.
+**Neovim users:** Check out [death-metal-theme-neovim](https://github.com/stereoabuse/death-metal-theme-neovim) instead.
+
+This theme collection is based on the excellent work done by [@cdmill](https://github.com/cdmill) on [neomodern.nvim](https://github.com/cdmill/neomodern.nvim) and [@metalelf0](https://github.com/metalelf0) on [black-metal-theme-neovim](https://github.com/metalelf0/black-metal-theme-neovim). Big hail to them!
 
 ## Included Themes
 
@@ -10,39 +12,43 @@ Color palettes extracted directly from iconic death metal album artwork, careful
 
 ### At the Gates - Slaughter of the Soul (1995)
 
-Golden and rust orange tones from the legendary melodic death metal masterpiece.
+![at-the-gates](images/at-the-gates-full.png)
 
 ### Autopsy - Severed Survival (1989)
 
-Flesh red and surgical blue from the gruesome medical horror artwork.
+![autopsy](images/autopsy-full.png)
 
 ### Bolt Thrower - Those Once Loyal (2005)
 
-War-torn colors from the final statement of the kings of war metal.
+![bolt-thrower](images/bolt-thrower-full.png)
 
 ### Cannibal Corpse - Tomb of the Mutilated (1992)
 
-Red and purple hues from Vincent Locke's iconic horror artwork.
+![cannibal-corpse](images/cannibal-corpse-full.png)
 
 ### Carcass - Heartwork (1993)
 
-Metallic tan and bronze from H.R. Giger's biomechanical artwork.
+![carcass](images/carcass-full.png)
 
 ### Death - Leprosy (1988)
 
-Bright pink and dark magenta from the album that defined death metal.
+![death](images/death-full.png)
 
 ### Dismember - Like an Ever Flowing Stream (1991)
 
-Blood red and bone white from the Swedish death metal classic.
+![dismember](images/dismember-full.png)
 
 ### Entombed - Left Hand Path (1990)
 
-Green and brown earth tones from the cover of the HM-2 sound bible.
+![entombed](images/entombed-full.png)
 
 ### Morbid Angel - Altars of Madness (1989)
 
-Fiery orange and deep red from the technical death metal masterwork.
+![morbid-angel](images/morbid-angel-full.png)
+
+## Rationale
+
+Each theme palette is extracted directly from the album artwork using color analysis. Colors are chosen to represent the album's visual aesthetic while remaining readable for code.
 
 ## Installation
 
@@ -57,7 +63,7 @@ Fiery orange and deep red from the technical death metal masterwork.
 
 1. Download the repository or clone it:
    ```bash
-   git clone https://github.com/stereoabuse/death-metal-sublime.git
+   git clone https://github.com/stereoabuse/death-metal-theme-sublime.git
    ```
 
 2. Copy the `.sublime-color-scheme` files from the `themes/` directory to your Sublime Text Packages folder:
@@ -82,9 +88,6 @@ Fiery orange and deep red from the technical death metal masterwork.
 - Death Metal - Entombed
 - Death Metal - Morbid Angel
 
-## Rationale
-
-Each theme palette is extracted directly from the album artwork using color analysis. Colors are chosen to represent the album's visual aesthetic while remaining readable for code. The base template provides excellent syntax highlighting with the album-specific accent colors applied to strings, types, and other key language constructs.
 
 ## Album References
 
@@ -98,15 +101,15 @@ Each theme palette is extracted directly from the album artwork using color anal
 - Entombed: Left Hand Path, 1990
 - Morbid Angel: Altars of Madness, 1989
 
+## Credits
+
+- Original architecture: [@cdmill](https://github.com/cdmill) - [neomodern.nvim](https://github.com/cdmill/neomodern.nvim)
+- Black metal themes inspiration: [@metalelf0](https://github.com/metalelf0) - [black-metal-theme-neovim](https://github.com/metalelf0/black-metal-theme-neovim)
+- Death metal themes and color extraction: This repository
+
 ## Related Projects
 
 - [Death Metal Neovim](https://github.com/stereoabuse/death-metal-theme-neovim) - The same themes for Neovim
-
-## Credits
-
-- Color extraction and themes: This repository
-- Original Neovim architecture: [@cdmill](https://github.com/cdmill) - [neomodern.nvim](https://github.com/cdmill/neomodern.nvim)
-- Black metal themes inspiration: [@metalelf0](https://github.com/metalelf0) - [black-metal-theme-neovim](https://github.com/metalelf0/black-metal-theme-neovim)
 
 ## License
 
